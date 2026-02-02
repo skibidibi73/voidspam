@@ -29,7 +29,7 @@ local function _0x52756e()
     local ACTIVE = false
     local LOCKED = false
     local lastPos = nil
-    local RANGE = 80000
+    local RANGE = 60000
 
     local function _0x5374796c65(obj, radius, strokeColor)
         local corner = Instance.new("UICorner", obj)
