@@ -92,7 +92,7 @@ local function _0x52756e()
     local statusLabel = Instance.new("TextLabel", mainFrame)
     statusLabel.Size = UDim2.new(1, 0, 0, 20)
     statusLabel.Position = UDim2.new(0, 0, 0, 40)
-    statusLabel.Text = "● STATUS: IDLE"
+    statusLabel.Text = "â STATUS: IDLE"
     statusLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
     statusLabel.Font = Enum.Font.Code
     statusLabel.TextSize = 10
@@ -144,13 +144,13 @@ local function _0x52756e()
             tBtn.Text = "STOP VOID SPAM"
             tBtn.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
             tBtn.TextColor3 = Color3.fromRGB(10, 10, 10)
-            statusLabel.Text = "● STATUS: ACTIVE"
+            statusLabel.Text = "â STATUS: ACTIVE"
             statusLabel.TextColor3 = Color3.fromRGB(0, 255, 120)
         else
             tBtn.Text = "START VOID SPAM"
             tBtn.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
             tBtn.TextColor3 = Color3.fromRGB(160, 160, 160)
-            statusLabel.Text = "● STATUS: IDLE"
+            statusLabel.Text = "â STATUS: IDLE"
             statusLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
             if root and lastPos then root.CFrame = lastPos end
         end
