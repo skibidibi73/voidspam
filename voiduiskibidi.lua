@@ -150,7 +150,7 @@ local function _0x52756e()
             tBtn.Text = "START VOID SPAM"
             tBtn.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
             tBtn.TextColor3 = Color3.fromRGB(160, 160, 160)
-            statusLabel.Text = "⚫︎ STATUS: IDLE"
+            statusLabel.Text = "STATUS: IDLE"
             statusLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
             if root and lastPos then root.CFrame = lastPos end
         end
